@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Carousel dots */
+.ant-carousel .slick-dots li button {
+    background-color: black !important; /* Non-active dots */
+    opacity: 0.5; /* optional: dim non-active dots */
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    background-color: black !important; /* Active dot */
+    opacity: 1;
+}
