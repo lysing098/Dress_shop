@@ -22,7 +22,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://ah-toch-store-laravel.vercel.app",
+        "APP_URL": "https://dress-shop-sooty.vercel.app",
         "APP_KEY": "base64:oHEeDzBZn628IaH7taThDhx2/F8G7nXkxcO1zkt+DwY=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -35,10 +35,11 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "dress-shop-om57a-mysql.dress-shop-om57a.svc.cluster.local",
+        "DB_HOST": "sql202.infinityfree.com",
         "DB_PORT": "3306",
-        "DB_DATABASE": "dress-shop",
-        "DB_USERNAME": "test",
-        "DB_PASSWORD": "test"
+        "DB_DATABASE": "if0_40583092_XXX",
+        "DB_USERNAME": "if0_40583092",
+        "DB_PASSWORD": "5sSQ0kJk3cOO"
     }
+
 }
