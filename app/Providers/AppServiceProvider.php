@@ -29,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Vite::prefetch(concurrency: 3);
 
-        Auth::loginUsingId(1);
+        
         Inertia::share([
         'cart' => function () {
             if (auth()->check()) {
